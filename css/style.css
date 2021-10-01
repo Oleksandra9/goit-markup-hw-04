@@ -83,7 +83,6 @@ img {
 
 .nav-list-item,
 .contacts-list-item {
-  display: inline-block;
   margin-right: 50px;
 }
 .nav-list-item:last-child,
@@ -99,8 +98,7 @@ img {
 }
 .nav-link,
 .contacts-link {
-  display: flex;
-  align-items: center;
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -108,20 +106,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.icon-mail {
-  /* width: 16px;
-  height: 12px; */
-  fill: currentColor;
-  margin-right: 10px;
-
-}
-
-/* .icon-envelope {
-  fill: currentColor;
-    margin-right: 50px;
-} */
 }
 .nav-link:hover,
 .nav-link:focus,
