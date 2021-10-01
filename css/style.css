@@ -7,6 +7,7 @@
   --main-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
+  --icon-color: #afb1b8;
 }
 body {
   background-color: var(--main-white-color);
@@ -251,11 +252,8 @@ img {
 .features-item:last-child {
   margin-right: 0px;
 }
-/* ------------------------------------- */
-/* .flex {
-  display: flex;
-  flex-direction: column;
-} */
+/* ---------ICON--------- */
+
 .icon-antenna1,
 .icon-clock1,
 .icon-laptop1,
@@ -271,7 +269,7 @@ img {
   margin-bottom: 30px;
 }
 
-/* -------------works------------- */
+/* -------------WORKS------------- */
 
 .works {
   padding-top: 0px;
@@ -287,7 +285,7 @@ img {
   margin-right: 0px;
 }
 
-/* -----------------team------------------------ */
+/* -----------------TEAM------------------------ */
 
 .team-list {
   display: flex;
@@ -311,7 +309,7 @@ img {
 
 .team-item-box {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .team-title {
   font-weight: 500;
@@ -330,7 +328,41 @@ img {
 
   text-align: center;
 }
+/* ----------------------- */
 
+.icon-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.icon-item {
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 10px;
+}
+
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--icon-color);
+  padding: 12px;
+  border-radius: 50%;
+}
+.icon-item:nth-last-child(4n + 1) {
+  margin-right: 0px;
+}
+.icon-link:hover,
+.icon-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--main-white-color);
+}
+/* .icon-instagram {
+  fill: black;
+} */
 /* ---------------footer----------------------------- */
 
 .footer {
