@@ -251,6 +251,25 @@ img {
 .features-item:last-child {
   margin-right: 0px;
 }
+/* ------------------------------------- */
+/* .flex {
+  display: flex;
+  flex-direction: column;
+} */
+.icon-antenna1,
+.icon-clock1,
+.icon-laptop1,
+.icon-cosmonaut1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--third-background-color);
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 
 /* -------------works------------- */
 
