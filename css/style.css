@@ -368,20 +368,21 @@ img {
 
 .partners-list {
   display: flex;
+  justify-content: space-around;
 }
 
 .partners-item {
   margin-right: 30px;
 }
 
-.partners-item:nth-last-child(6n + 1) {
+.partners-item:last-child {
   margin-right: 0px;
 }
 
 .partners-link {
   display: flex;
   fill: var(--icon-color);
-  padding: 16px 32px;
+  padding: 16px 31px;
   justify-content: center;
   align-items: center;
 
@@ -394,10 +395,7 @@ img {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
-/* .partners-logo {
-  display: flex;
-  background-color: var(--main-white-color);
-} */
+
 /* ---------------footer----------------------------- */
 
 .footer {
@@ -438,6 +436,48 @@ img {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
+}
+
+/* --------------------------------------------------- */
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+  margin-bottom: 20px;
+}
+
+.icon-list-footer {
+  display: flex;
+}
+.icon-link-footer {
+  display: flex;
+  padding: 12px;
+  fill: var(--main-white-color);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.icon-link-footer:hover,
+.icon-link-footer:focus {
+  background-color: var(--accent-color);
+}
+
+.icon-item-footer {
+  margin-right: 10px;
+}
+.icon-item-footer:last-child {
+  margin-right: 0px;
+}
+
+.address-footer {
+  margin-right: 70px;
 }
 
 /* ------------------portfolio (2-d page)------------------ */
