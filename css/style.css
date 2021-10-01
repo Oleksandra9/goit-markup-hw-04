@@ -363,6 +363,41 @@ img {
 /* .icon-instagram {
   fill: black;
 } */
+
+/* -----------------PARTNERS-------------------------- */
+
+.partners-list {
+  display: flex;
+}
+
+.partners-item {
+  margin-right: 30px;
+}
+
+.partners-item:nth-last-child(6n + 1) {
+  margin-right: 0px;
+}
+
+.partners-link {
+  display: flex;
+  fill: var(--icon-color);
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.partners-link:hover,
+.partners-link:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+/* .partners-logo {
+  display: flex;
+  background-color: var(--main-white-color);
+} */
 /* ---------------footer----------------------------- */
 
 .footer {
