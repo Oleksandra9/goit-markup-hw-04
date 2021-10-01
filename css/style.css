@@ -99,6 +99,7 @@ img {
 .nav-link,
 .contacts-link {
   display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -112,18 +113,32 @@ img {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .current {
   color: var(--accent-color);
 }
 
-/* .contacts-link::before {
-  width: 90px;
-  height: 50px;
-  border: var(--secondary-text-color);
-  background-color: yellowgreen;
-  content: ' ';
+.icon-envelope,
+.icon-smartphone {
+  fill: currentColor;
+  margin-right: 10px;
+}
+/*----------------------- інші варіанти (header) -------------------*/
+
+/* .contacts-link:hover .icon-envelope {
+  fill: rgb(54, 240, 7);
 } */
+/* .icon-envelope {
+  background-color: brown,
+   fill: currentColor;
+} */
+/* .icon-envelope:hover,
+.icon-envelope:focus {
+  background-color: chartreuse;
+} */
+
+/* --------------------------------------------------------- */
 
 /*------------- LOGO-------------------- */
 
@@ -201,20 +216,6 @@ img {
 }
 
 /* ----------------FEATURES-------------- */
-
-/* -----------------------СПРОБА-------------------- */
-
-.features-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  background-color: var(--bachgroun-button-portfolio);
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-}
-/* -----------------------СПРОБА-------------------- */
 
 .features-list {
   display: flex;
